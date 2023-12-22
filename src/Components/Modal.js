@@ -15,7 +15,7 @@ function ModalComponent(args) {
     }, 30000);
 
     return () => clearTimeout(timeoutId);
-  }, []);
+  });
 
   return (
     <div>
