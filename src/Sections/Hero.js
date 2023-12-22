@@ -2,7 +2,6 @@ import React from 'react';
 import ButtonOutline from '../Components/Atoms/ButtonOutline';
 import heroIllustration from '../images/illustration-hero.svg';
 import classes from './Hero.module.scss';
-import RoundedDiv from '../Components/Atoms/RoundedDiv';
 
 function Hero() {
   return (
