@@ -16,7 +16,6 @@ function Hero() {
         </div>
         <div className={classes.hero_image}>
           <img src={heroIllustration} alt='Hero Illustration' />
-          {/* <RoundedDiv /> */}
         </div>
       </div>
     </>

@@ -9,7 +9,6 @@ function Tab({ title, text, img }) {
       <div className={classes.tab_container}>
         <div >
           <img src={img} alt='Hero Illustration' className={classes.tab_img} />
-          {/* <RoundedDiv /> */}
         </div>
         <div >
           <h2>{title}</h2>

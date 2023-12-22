@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Button, Modal, ModalBody, ModalFooter } from 'reactstrap';
 import Tab from './Tab'
 import Tab2Img from './../images/illustration-features-tab-2.svg'
