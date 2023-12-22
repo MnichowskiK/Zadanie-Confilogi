@@ -1,0 +1,20 @@
+.contact {
+  display: flex;
+  background-color: hsl(231, 69%, 60%);
+  color: whitesmoke;
+  padding: 3rem;
+  justify-content: center;
+  align-items: center;
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .input {
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    border: 0 solid;
+  }
+}

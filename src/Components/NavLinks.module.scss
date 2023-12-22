@@ -1,0 +1,16 @@
+.nav_items {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin-bottom: 0rem;
+  margin-right: 1rem;
+  li {
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+}
+
+.nav_items li:hover {
+  color: #ea3a3a;
+}

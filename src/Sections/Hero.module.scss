@@ -1,0 +1,14 @@
+.hero_section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.hero_image {
+  position: relative;
+  z-index: 2;
+}
+
+

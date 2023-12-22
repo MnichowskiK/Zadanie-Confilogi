@@ -1,0 +1,44 @@
+.button_outline {
+  border: 2px solid transparent;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #fff;
+  min-width: 4rem;
+  margin-right: 1rem;
+
+  &.light_blue {
+    color: #fff;
+    background-color: hsl(231, 69%, 60%);
+
+    &:hover {
+      color: hsl(231, 69%, 60%);
+      border-color: hsl(231, 69%, 60%);
+      background-color: #fff;
+    }
+  }
+
+  &.light_grey {
+    color: hsl(225, 3%, 31%);
+    background-color: hsl(228, 20%, 95%);
+
+    &:hover {
+      color: hsl(225, 3%, 31%);
+      background-color: #fff;
+      border-color: hsl(225, 3%, 31%);
+    }
+  }
+
+  &.light_red {
+    color: #fff;
+    background-color: hsl(0, 94%, 66%);
+
+    &:hover {
+      color: hsl(0, 94%, 66%);
+      border-color: hsl(0, 94%, 66%);
+      background-color: #fff;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.rounded_div {
+  position: absolute;
+  background-color: hsl(231, 69%, 60%);
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  padding: 20px;
+  width: 70%;
+  height: 20rem;
+  top: 50%;
+  transform: translateY(-20%);
+  right: -30%;
+  z-index: 1;
+}

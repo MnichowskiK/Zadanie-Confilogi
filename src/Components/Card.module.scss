@@ -1,0 +1,21 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-right: 2rem;
+}
+.card:nth-child(2) {
+  margin-top: 5%;
+}
+
+.card:nth-child(3) {
+  margin-top: 10%;
+  margin-right: 0;
+}
+
+.dots {
+  margin-bottom: 1rem;
+}

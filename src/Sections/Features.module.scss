@@ -1,0 +1,34 @@
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  flex-direction: column;
+  .container {
+    margin-top: 1rem;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttonWrapper {
+  padding: 1.5rem;
+  border-bottom: 3px solid #ccc;
+  cursor: pointer;
+  color: hsl(229, 8%, 60%);
+}
+
+.activeButton {
+  color: black;
+  border-bottom: 3px solid #ea3a3a;
+}
+
+.buttonWrapper:hover {
+  color: #ea3a3a;
+}
